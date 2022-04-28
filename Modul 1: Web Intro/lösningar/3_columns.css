@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    margin-left: 5%; /* Centrerar innehållet i containern */
+}
+
+.col {
+    position: absolute; /* Absolut positionerad relativt containern */
+    display: inline-block;
+    border: 2px solid lightgrey;
+    width: 25%; /* 25% av containerns bredd */
+    padding: 1em;
+}
+
+.heading_2 {
+    left: 30%;
+}
+
+.heading_3 {
+    left: 60%;   
+}
