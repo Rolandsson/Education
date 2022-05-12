@@ -1,0 +1,22 @@
+.container {
+    width: 80%;
+    height: 80vh;
+    margin: 5em auto;
+}
+
+.response-result {
+    background-color: #f6f6f6;
+    height: 80%;
+    margin: 0.5em 5em;
+    font-size: 1.5em;
+}
+
+.request-btn, .request-input {
+    font-size: 1.5em;
+    padding: .5em 1em;
+}
+
+.request-input {
+    width: 50%;
+    margin-left: 5em;
+}
