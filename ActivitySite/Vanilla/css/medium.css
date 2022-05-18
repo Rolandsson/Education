@@ -1,0 +1,41 @@
+@media only screen and (min-width: 500px) {
+  .image-container {
+    height: 10em;
+  }
+
+  .main-header {
+    text-align: center;
+    padding: 1.5em 0;
+  }
+
+  .contact-form * {
+    font-size: 1.1rem;
+  }
+
+  .contact-form form {
+    width: 60%;
+  }
+
+  .contact-form textarea {
+    height: 5em;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .page-content {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .activity-content article {
+    height: 300px;
+  }
+
+  .activity-figure figcaption {
+    display: none;
+  }
+
+  .activity-figure img {
+    height: 300px;
+  }
+}

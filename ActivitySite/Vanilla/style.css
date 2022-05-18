@@ -1,0 +1,185 @@
+:root {
+  background-color: #f6f6f6;
+  font-size: 1.2em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.page-footer {
+  text-align: center;
+  margin-top: 2em;
+  padding: 0.5em 0;
+  font-size: 0.8rem;
+}
+
+.page-header {
+  position: relative;
+  padding: 1em;
+  height: 3em;
+  color: #00232D;
+}
+
+.page-header::after {
+  content: '';
+  position: absolute;
+  background-image: url('assets/background/clouds.jpeg');
+  background-position: center;
+  background-size: cover;
+  opacity: .7;
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.page-header h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.page-header p {
+  font-weight: 600;
+}
+
+.page-navigation {
+  background-color: #00232D;
+  color: #f6f6f6;
+  border-bottom: 2px solid #f6f6f6;
+}
+
+.page-navigation ul {
+  width: 90%;
+  margin: 0 auto;
+  height: 2em;
+}
+
+.page-navigation li {
+  float: left;
+  text-align: center;
+}
+
+.page-navigation a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: .5em 1em;
+}
+
+.nav-active a {
+  background-color: #338095;
+  color: black;
+}
+
+
+.page-gallery header {
+  display: none;
+}
+
+.image-container {
+  height: 5em;
+}
+
+.image-container::after {
+  content: '';
+  clear: both;
+}
+
+.image-container img {
+  width: 33.33%;
+  float: left;
+  height: inherit;
+}
+
+.main-header {
+  font-size: 1.3rem;
+  padding: .5em 1em;
+}
+
+.activity-header {
+  font-size: 1.2rem
+}
+
+.activity-content article:nth-child(even) figure {
+  float: right;
+  margin: 0em 0 1em 1em;
+}
+
+.activity-content article:nth-child(odd) figure {
+  float: left;
+  margin: 0em 1em 1em 0;
+}
+
+.activity-content article:nth-child(even) {
+  background-color: #00607A;
+  color: #cfcfcf;
+}
+
+.activity-content article:nth-child(odd) {
+  background-color: #5C99AA;
+  color: #0a252c;
+}
+
+
+.activity-content article {
+  position: relative;
+}
+
+.activity-header {
+  padding: .5em 0 0 .5em;
+}
+.activity-text {
+  padding: 1em;
+}
+
+.activity-figure {
+  width: 40%;
+  text-align: center;
+}
+.activity-figure img {
+  width: 100%;
+}
+
+.contact-form {
+  position: relative;
+  padding: 1em;
+  font-size: 1.1rem;
+  min-height: 60vh;
+}
+
+.contact-form form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin: 1em;
+}
+
+.form-group * {
+  display: block;
+  width: 100%;
+}
+
+.form-group input {
+  padding: .5em .2em;
+}
+
+.contact-form textarea {
+  height: 4em;
+}
+
+.contact-form button {
+  display: block;
+  margin-left: 10%;
+  font-size: 1rem;
+  background-color: #005066;
+  color: #f6f6f6;
+  padding: .5em;
+  border-radius: .3em;
+  border-style: none;
+  box-shadow: 4px 4px 2px #f6f6f6;
+}
