@@ -1,0 +1,51 @@
+@media only screen and (min-width: 1000px) {
+
+  .activity-content {
+    width: 65%;
+    vertical-align: top;
+  }
+
+  .page-gallery header {
+    display: block;
+    text-align: center;
+    padding: 1.5em 0;
+    font-size: 1.3rem;
+  }
+
+  .page-gallery {
+    vertical-align: top;
+    float: right;
+    width: 30%;
+  }
+
+  .image-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .image-container img {
+    width: 100%;
+  }
+
+  .page-navigation ul {
+    height: 3em;
+  }
+
+  .page-navigation a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 1em 1em;
+  }
+
+  .contact-form form {
+    width: 50%;
+  }
+  .contact-form * {
+    font-size: 1.3rem;
+  }
+
+  .contact-form textarea {
+    height: 10em;
+  }
+}
