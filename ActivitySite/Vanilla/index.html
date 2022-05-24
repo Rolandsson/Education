@@ -30,13 +30,13 @@
         <a href="/index.html">Aktiviteter</a>
       </li>
       <li class="nav-item">
-        <a href="/pages/contact.html">Kontakt</a>
+        <a href="#contact-page">Kontakt</a>
       </li>
       <li class="nav-item"></li>
     </ul>
   </nav>
 
-  <main class="page-content">
+  <main class="page-content" id="home-page">
     <aside class="page-gallery">
       <header>
         <h3>Galleria</h3>
@@ -81,8 +81,34 @@
     </section>
   </main>
 
+  <main class="page-content" id="contact-page">
+    <section class="contact-form">
+      <header class="main-header">
+        <h1>Kontakta oss!</h1>
+      </header>
+
+      <form action="#">
+        <p class="form-group">
+          <label for="question">Din fråga</label>
+          <input id="question" type="text" placeholder="Skriv din fråga" />
+        </p>
+        <p class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="adress@domain" />
+        </p>
+        <p class="form-group">
+          <label for="description">Förklaring av problemet</label>
+          <textarea id="description"></textarea>
+        </p>
+        <button>Skicka in frågan</button>
+      </form>
+    </section>
+  </main>
+
   <footer class="page-footer">
     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo, exercitationem.
   </footer>
+
+  <script src="app.js"></script>
 </body>
 </html>
